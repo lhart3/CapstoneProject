@@ -97,7 +97,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Default.aspx" />
+    <Content Include="SelectGamePage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -148,12 +148,12 @@
     </Compile>
     <Compile Include="Card.vb" />
     <Compile Include="Deck.vb" />
-    <Compile Include="Default.aspx.vb">
+    <Compile Include="SelectGamePage.aspx.vb">
       <SubType>ASPXCodeBehind</SubType>
-      <DependentUpon>Default.aspx</DependentUpon>
+      <DependentUpon>SelectGamePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.designer.vb">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="SelectGamePage.aspx.designer.vb">
+      <DependentUpon>SelectGamePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
