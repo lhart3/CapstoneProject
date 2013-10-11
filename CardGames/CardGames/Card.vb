@@ -61,11 +61,6 @@ Public Class Card
         Me.cardIsUp = cardIsUp
     End Sub
 
-    ''' <summary>
-    ''' Return the card as a string (i.e. "The Ace of Spades")
-    ''' </summary>
-    ''' <returns></returns>
-    ''' <remarks></remarks>
     Public Overloads Overrides Function ToString() As String
         Return "The" & faceValueCard.ToString & "of" & suitCard.ToString
     End Function
